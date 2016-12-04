@@ -1,0 +1,23 @@
+body {
+    background-color: #D50000;
+    color: white;
+}
+
+.center-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-screen {
+    width: 100%;
+    height: 100vh;
+}
+
+.size-stop {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
